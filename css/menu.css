@@ -1,0 +1,19 @@
+#menu ul {
+  width: 1280px;
+  background-color: #333333;
+}
+#menu ul li {
+  display: inline-block;
+}
+#menu ul li button {
+  padding: 10px 20px;
+  background-color: #333333;
+  border: none;
+  font-family: sans-serif;
+  font-size: 1.5em;
+  color: white;
+}
+#menu ul li button:hover {
+  background-color: #487cdb;
+}
+/*# sourceMappingURL=menu.css.map */
