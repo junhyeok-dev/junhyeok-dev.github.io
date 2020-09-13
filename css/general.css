@@ -2,8 +2,11 @@
   margin: 0;
   padding: 0;
   font-size: 1em;
+  color: #ffffff;
 }
 body {
   width: 1280px;
+  padding: 10px 0;
+  background-color: #222222;
 }
 /*# sourceMappingURL=general.css.map */

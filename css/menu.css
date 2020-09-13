@@ -1,20 +1,20 @@
-#menu ul {
+#menu {
   width: 1280px;
-  background-color: #333333;
+  background-color: #222222;
+  margin-bottom: 20px;
 }
-#menu ul li {
+#menu li {
   display: inline-block;
 }
-#menu ul li button {
-  height: 32px;
-  padding: 0 20px;
-  background-color: #333333;
-  border: none;
+#menu li button {
+  color: #ffffff;
+  padding: 10px 20px;
+  background-color: #222222;
+  border: 1px black solid;
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1em;
-  color: white;
 }
-#menu ul li button:hover {
+#menu li button:hover {
   background-color: #487cdb;
 }
 /*# sourceMappingURL=menu.css.map */

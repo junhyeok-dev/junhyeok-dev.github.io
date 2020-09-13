@@ -13,15 +13,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.js" integrity="sha256-DrT5NfxfbHvMHux31Lkhxg42LY6of8TaYyK50jnxRnM=" crossorigin="anonymous"></script>
     <script src="js/bodyalign.js"></script>
     <script src="js/prjslide.js"></script>
+    <script src="js/loaddocs.js"></script>
 </head>
 <body>
 <h1><img src="images/jdev.png" alt="jDev"></h1>
-<div id="menu">
-    <ul>
+<div>
+    <ul id="menu">
         <li><button>프로필</button></li>
-        <li><button>출판</button></li>
+        <li><button>프로젝트</button></li>
+        <li><button>논문</button></li>
+        <li><button>경력</button></li>
     </ul>
 </div>
+<h2>프로젝트</h2>
 <div id="prjslide">
     <div id="slide0">
         <img src="images/slide_jlvea.jpg">
@@ -30,13 +34,27 @@
         <img src="images/slide_sybileye.jpg">
     </div>
 </div>
-<div id="contract">
-    <h2>연락처</h2>
-    <ul>
-        <li><b>전화번호</b> +821099452723</li>
-        <li><b>이메일</b> junhyeok.dev@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/junhyeokdev/"><img src="images/linkedin.jpg"></a></li>
-    </ul>
+<div class="horizontal_divs">
+    <div id="profile">
+        <h2>프로필</h2>
+        <img src="images/profile.jpg">
+        <ul>
+            <li><h3>윤준혁</h3></li>
+            <li><b>학력</b> 한경대학교 일반대학원 컴퓨터응용수학부 석사</li>
+            <li><b>학력</b> 한경대학교 컴퓨터공학과 학사</li>
+            <li><b>경력</b> 한경대학교 컴퓨터시스템연구소 연구원</li>
+            <li><b>경력</b> 블록스미스 최고기술책임자(CTO)</li>
+        </ul>
+    </div>
+    <div id="contract">
+        <h2>연락처</h2>
+        <ul>
+            <li><b>전화번호</b> +821099452723</li>
+            <li><b>이메일</b> junhyeok.dev@gmail.com</li>
+            <li><a href="https://www.linkedin.com/in/junhyeokdev/"><img src="images/linkedin.jpg"></a></li>
+        </ul>
+    </div>
 </div>
+<div id="content"></div>
 </body>
 </html>
