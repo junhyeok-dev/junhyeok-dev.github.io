@@ -9,4 +9,9 @@ body {
   padding: 10px 0;
   background-color: #222222;
 }
+footer {
+  margin-top: 10px;
+  font-size: 0.8em;
+  color: #888888;
+}
 /*# sourceMappingURL=general.css.map */
