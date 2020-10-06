@@ -1,3 +1,13 @@
+let docs = ["home", "profile", "projects", "publications", "works"];
+
+function loadDoc(num) {
+    $("#content").load("docs/" + docs[num] + ".html");
+}
+
 $(window).on("load", () => {
-    $("#content").load("docs/home.html");
+    loadDoc(0);
+
+    for (i = 0; i < docs.length; i++) {
+        $("#btn_" + docs[i]).attr("onclick", "loadDoc(" + i + ");");
+    }
 })
