@@ -4,6 +4,12 @@
 #prjslide #slide1 {
   display: none;
 }
+#prjslide #slide2 {
+  display: none;
+}
+#prjslide #slide3 {
+  display: none;
+}
 .horizontal_divs {
   display: block;
 }

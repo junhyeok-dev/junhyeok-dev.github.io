@@ -1,8 +1,10 @@
 let slidenum = 0;
 var prjslide;
 
+let NUM_SLIDE = 4
+
 function nextSlide() {
-    if (slidenum === 1) {
+    if (slidenum === NUM_SLIDE - 1) {
         slidenum = 0;
     } else {
         slidenum++;
@@ -11,7 +13,7 @@ function nextSlide() {
 }
 
 function showSlide(n) {
-    for (var i = 0; i < 2; i++) {
+    for (var i = 0; i < NUM_SLIDE; i++) {
         if (i === slidenum) {
             $("#slide" + i).css("display", "block");
         } else {
