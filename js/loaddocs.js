@@ -7,7 +7,7 @@ function loadDoc(num) {
 $(window).on("load", () => {
     loadDoc(0);
 
-    for (i = 0; i < docs.length; i++) {
+    for (var i = 0; i < docs.length; i++) {
         $("#btn_" + docs[i]).attr("onclick", "loadDoc(" + i + ");");
     }
 })

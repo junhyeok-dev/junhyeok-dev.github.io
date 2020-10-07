@@ -1,3 +1,9 @@
+#prjslide #slide0 {
+  display: block;
+}
+#prjslide #slide1 {
+  display: none;
+}
 .horizontal_divs {
   display: block;
 }
@@ -40,4 +46,4 @@
 #prjslide {
   margin-bottom: 20px;
 }
-/*# sourceMappingURL=main.css.map */
+/*# sourceMappingURL=home.css.map */
