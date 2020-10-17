@@ -1,55 +1,55 @@
-#prjslide #slide0 {
+#content #prjslide #slide0 {
   display: block;
 }
-#prjslide #slide1 {
+#content #prjslide #slide1 {
   display: none;
 }
-#prjslide #slide2 {
+#content #prjslide #slide2 {
   display: none;
 }
-#prjslide #slide3 {
+#content #prjslide #slide3 {
   display: none;
 }
-.horizontal_divs {
+#content .horizontal_divs {
   display: block;
 }
-.horizontal_divs #contract {
+#content .horizontal_divs #contract {
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
 }
-.horizontal_divs #contract ul li {
+#content .horizontal_divs #contract ul li {
   list-style-type: none;
   margin-bottom: 5px;
 }
-.horizontal_divs #contract ul li img {
+#content .horizontal_divs #contract ul li img {
   margin: 5px 0;
 }
-.horizontal_divs #profile {
+#content .horizontal_divs #profile {
   display: inline-block;
   vertical-align: top;
   margin-right: 20px;
 }
-.horizontal_divs #profile img {
+#content .horizontal_divs #profile img {
   vertical-align: top;
   display: inline-block;
   margin-right: 10px;
   height: 150px;
 }
-.horizontal_divs #profile ul {
+#content .horizontal_divs #profile ul {
   display: inline-block;
 }
-.horizontal_divs #profile ul li {
+#content .horizontal_divs #profile ul li {
   list-style-type: none;
   margin-bottom: 5px;
 }
-.horizontal_divs #profile ul li h3 {
+#content .horizontal_divs #profile ul li h3 {
   font-family: 'Nanum Gothic', sans-serif;
   font-size: 1.1em;
   font-weight: bold;
   margin-bottom: 10px;
 }
-#prjslide {
+#content #prjslide {
   margin-bottom: 20px;
 }
 /*# sourceMappingURL=home.css.map */
